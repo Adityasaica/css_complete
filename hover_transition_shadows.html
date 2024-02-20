@@ -1,0 +1,212 @@
+<style>
+        .subscribe{
+        background-color:rgb(200, 0, 0);
+        border-style: none;
+        border-radius: 2px;
+        color:white;
+       
+        cursor:pointer;
+        margin-right:8px;
+        transition: opacity 0.15s;
+        padding-left:16px;
+        padding-right:16px;
+        padding-top:20px;
+        padding-bottom:20px;
+        /* browders use the oneline text to aling the buttons */
+        verticle-aling:top;
+
+
+    }
+    .subscribe:hover{
+        
+        opacity:0.7;
+        /* opacity means darkness ranges 0-1 towords 0 fades towords 1 darkens */
+    }
+    /* the above was called as the pseudo class  */
+    .subscribe:active{
+        opacity:0.5;
+    }
+
+ 
+    .join{
+       
+        padding-left:30px;
+        padding-right:30px;
+        padding-top:20px;
+        padding-bottom:20px;
+        border-style:solid;
+        border-color:rgb(41, 118, 211);
+        border-width:1.5px;
+        background-color:white;
+        color:rgb(41, 118, 211);
+        border-radius:2px;
+        cursor: pointer;
+        margin-right:8px;
+        
+        transition: opacity 0.5s,background-color 1s,color 1s;
+
+    }
+    .join:hover{
+        background-color:rgb(41, 118, 211);
+        color:white;
+    }
+    .join:active{
+        opacity:0.7;
+    }
+
+    .tweet{
+        height:36px;
+        width:70px;
+        background-color:rgb(3, 144, 232);
+        border-style:none;
+        border-radius: 18px;
+        /* rad must be half of height or width which one was low */
+        color:white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        cursor:pointer;
+        margin-right:8px;
+        transition: box-shadow 0.5s;
+        /* horizontal position verticle position blurr */
+    }
+    .tweet:hover{
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+    }
+    .uber_button{
+        height:50;
+        width:150;
+        background-color: black;
+        color:white;
+        font-size:15;
+        border-style: none;
+        cursor: grab;
+        /* grab
+        move 
+        resize etc there are many cursor types */
+
+        transition: opacity 1s;
+    }
+    .uber_button:hover{
+        opacity:0.7;
+    }
+
+    .uber_button:active{
+        opacity:0.5;
+    }
+    .amazon_button{
+        height:30px;
+        width: 150px;
+        background-color: rgb(255, 216, 20);
+        border-style:none;
+        border-radius: 15px;
+
+        transition: background-color 0.5s;
+
+    }
+
+    .amazon_button:hover{
+        background-color:rgb(255, 208, 0);
+    }
+    .github_button{
+        height:36px;
+        width:75px;
+        background-color:rgb(46,164,79);
+        border-style:none;
+        border-radius: 4px;
+        color:white;
+        font-weight:bold;
+
+        transition: box-shadow 1s;
+
+    }
+    .github_button:hover{
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.394);
+    }
+    
+
+    .bootstrap_1{
+        height:40px;
+        width:110px;
+        margin-right:6px;
+        background-color: rgb(121,82,179);
+        border-style:none;
+        border-radius: 2px;
+        color:white;
+        font-weight:bold;
+        transition:background-color 1s;
+    }
+
+    .bootstrap_1:hover{
+        background-color:blueviolet;
+    }
+    .bootstrap_2{
+        height:40px;
+        width:110px;
+        background-color:white;
+        border-style:solid;
+        border-width:0.75px;
+        border-color:rgb(95, 96, 109);
+        color:rgb(95, 96, 109);
+        border-radius:2px;
+        transition: background-color 1s,color 1s;
+
+    }
+
+    .bootstrap_2:hover{
+        background-color:rgb(95, 96, 109);
+        color:white;
+    }
+    .linkedin_1{
+        height:46px;
+        border-style:none;
+        background-color:rgb(10, 102, 194);
+        border-radius:23px;
+        margin-right:8px;
+        width:230px;
+        color:white;
+        font-weight:bold;
+        font-size:14px;
+
+        transition: background-color 1s;
+    }
+
+    .linkedin_1:hover{
+        background-color:rgb(10, 50, 194);
+    }
+    .linkedin_2{
+        height:46px;
+        width:90px;
+        border-style:solid;
+        border-color:rgb(10, 102, 194);
+        border-radius:23px;
+        background-color:white;
+        color:rgb(10, 102, 194);
+        font-weight:bold;
+        font-size:14px;    
+        
+        transition: background-color 1s;
+    }
+    .linkedin_2:hover{
+        background-color:rgba(10, 102, 194, 0.084);
+    }  
+    
+</style>
+
+
+<button class="subscribe">SUBSCRIBE</button>
+<button class="join">JOIN my channel</button>
+<button class="tweet">Tweet</button>
+<br>
+<h3>Uber</h3>
+<button class="uber_button">Request Now</button><br>
+<h3>Amazon</h3><br>
+<button class="amazon_button">Add to Cart</button>
+<br>
+<h3>GitHub</h3><br>
+<button class="github_button">Sign up</button><br>
+<h3>Bootstrap</h3><br>
+<button class="bootstrap_1">Get Started</button>
+<button class="bootstrap_2">Download</button><br>
+<h3>Linked In</h3>
+<button class="linkedin_1">Apply on company website</button>
+<button class="linkedin_2">Save</button>

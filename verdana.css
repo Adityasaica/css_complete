@@ -1,0 +1,21 @@
+.title{
+    margin-bottom:0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.cap{
+    margin-top:0px;
+    color:grey;
+}
+.content{
+    width:225px;
+}
+
+.button{
+    background-color:rgb(4, 102, 4);
+    border-style:none;
+    border-radius:7px;
+    width:100px;
+    cursor:pointer;
+    padding:10px;
+    color:white;
+}

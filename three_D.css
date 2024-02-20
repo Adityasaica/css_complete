@@ -1,0 +1,13 @@
+.dim{
+    box-shadow: 4px 4px 3px rgb(73, 70, 70);
+    background-color:green;
+    border-style:none;
+    padding:5px;
+    transition: box-shadow 0.5s,margin 0.5s;
+    
+}
+.dim:active{
+    box-shadow: 0px 0px 0px black;
+    margin-top:4px;
+    margin-left:4px;
+}

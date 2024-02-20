@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flexbox_practice</title>
+        <style>
+            .first{
+                background-color:lightblue;
+
+            }
+            .second{
+                background-color:lightpink;
+            }
+            .all{
+                display:flex;
+                flex-direction:row;
+            }
+            .all1{
+                display:flex;
+                flex-direction:row;
+                margin-top:10px;
+            }
+            .first1{
+                background-color:lightblue;
+                width:100px;
+            }
+            .second1{
+                background-color:lightcoral;
+                flex:1;
+                /* flex:1 was equal to the 1fr in the grid */
+            }
+            .all2{
+                display:flex;
+                flex-direction:row;
+                margin-top:10px;
+            }
+            .second2{
+                background-color:lightcoral;
+                flex:1;
+            }
+            .third{
+                background-color:lightgreen;
+                flex:2;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="all">
+            <div class="first">div 1 text</div>
+            <div class="second">div 2<p>text addition</p></div>
+        </div>
+        <div class="all1">
+            <div class="first1">div 1 text</div>
+            <div class="second1">div 2<p>text addition</p></div>
+        </div>
+        <div class="all2">
+            <div class="first1">div 1 text</div>
+            <div class="second2">div 2<p>text addition</p></div>
+            <div class="third">div3</div>
+        </div>
+    </body>
+</html>
